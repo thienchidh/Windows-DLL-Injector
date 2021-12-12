@@ -18,10 +18,25 @@
     <ClCompile Include="src\Payload.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\APIHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Payload.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\APIHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
